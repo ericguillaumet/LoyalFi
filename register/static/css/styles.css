@@ -68,3 +68,45 @@ img {
         transform: translateX(-50%);
     }
 }
+
+/* General table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #000000;
+    font-weight: bold;
+  }
+  
+  /* Colors for first, second, and third positions */
+  .gold {
+    background-color: gold;
+  }
+  
+  .silver {
+    background-color: silver;
+  }
+  
+  .bronze {
+    background-color: #cd7f32;
+  }
+
+.table-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .table-container table {
+    width: calc(50% - 10px);
+  }

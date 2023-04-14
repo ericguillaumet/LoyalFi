@@ -10,3 +10,7 @@ def index():
 
 def claim():
     return render_template("claim.html", pageTitle="Claim")
+
+@app.route("/ranking", methods=["GET"])
+def ranking():
+    return render_template("ranking.html", pageTitle="Ranking")

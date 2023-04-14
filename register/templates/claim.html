@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block section %}
+
+<section class="container">
+    <h1>Check your elegibility in order to claim your prize</h1>
+
+    <form action="/claim" method="post" class="forms">
+        <br>
+        <button class="button">Check</button>
+    </form>
+    {% if result %}
+    <br>
+    <div class="result">{{ result }}</div>
+    {% endif %}
+</section>
+
+{% endblock %}

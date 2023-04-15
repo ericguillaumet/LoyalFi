@@ -1,0 +1,61 @@
+#subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%; /* set width of the form to 80% */
+    margin: auto; /* center the form horizontally */
+    margin-top: 20px; /* add some margin at the top to separate from the header */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--dark-color);
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid var(--bg-blue);
+    border-radius: 4px;
+  }
+  
+  input[type="number"],
+  input[type="datetime-local"],
+  input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid var(--bg-blue);
+    border-radius: 4px;
+    background-color: white;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  input[type="submit"] {
+    background-color: var(--dark-color);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+  }
+  

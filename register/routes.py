@@ -14,3 +14,7 @@ def claim():
 @app.route("/ranking", methods=["GET"])
 def ranking():
     return render_template("ranking.html", pageTitle="Ranking")
+
+@app.route("/snapshot", methods=["GET"])
+def snapshot():
+    return render_template("snapshot.html", pageTitle="Snapshot")

@@ -1,5 +1,5 @@
 .button {
-    --color: var(--bg-green);
+    --color: var(--bg-blue);
     padding: 0.7em 1.2em;
     background-color: transparent;
     border-radius: .3em;
@@ -12,7 +12,7 @@
     border: 1px solid;
     font-family: inherit;
     text-transform: uppercase;
-    color: var(--bg-green);
+    color: var(--bg-blue);
     z-index: 1;
     margin: 0 auto;
     display: block;
@@ -27,7 +27,7 @@
     position: absolute;
     border-radius: 50%;
     z-index: -1;
-    background-color: var(--bg-green);
+    background-color: var(--bg-blue);
     transition: 1s ease;
    }
    

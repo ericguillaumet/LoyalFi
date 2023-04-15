@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block section %}
+
+<section id="Snapshot">
+    <h1>Snapshot</h1>
+    <form action="" id="subscribe" enctype="multipart/form-data">
+        <p>
+            <label for="ranking">Select ranking:</label>
+            <select name="ranking" id="ranking">
+                <option value="Uniswap">Uniswap</option>
+                <option value="Quickswap">Quickswap</option>
+            </select>
+        </p>
+        <p>
+            <label for="datetime">Time and date:</label>
+            <input type="datetime-local" name="datetime" id="datetime">
+        </p>
+        <p>
+            <label for="ranklimit">Rank limit:</label>
+            <input type="number" name="ranklimit" id="ranklimit">
+        </p>
+        <p>
+            <label for="updatefile">Update a file:</label>
+            <input type="file" name="updatefile" id="updatefile">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</section>
+
+{% endblock %}

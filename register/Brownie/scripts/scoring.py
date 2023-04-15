@@ -2,7 +2,6 @@ import requests
 import pandas as pd
 from collections import defaultdict
 
-
 def main():
     url = "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2"
     pair = "0xae461ca67b15dc8dc81ce7615e0320da1a9ab8d5"
@@ -60,3 +59,6 @@ def main():
     address_list = df["user_id"].to_list()
     print(address_list)
     return address_list
+
+if __name__ == "__main__":
+    main()

@@ -3,9 +3,11 @@
 {% block section %}
 
 <section class="container">
-    <h1>Check your elegibility in order to claim your prize</h1>
+    <h1>Check your eligibility in order to claim your prize</h1>
 
     <form action="/claim" method="post" class="forms">
+        <label for="wallet_address">Enter your wallet address:</label>
+        <input type="text" name="wallet_address" id="wallet_address" required>
         <br>
         <button class="button">Check</button>
     </form>
